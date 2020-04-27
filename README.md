@@ -104,6 +104,7 @@ The component is globally available as `VuetifyImageInput`. If Vue is detected, 
 | `imageQuality` | | | |
 | `imageWidth` | `Number` | `256` | |
 | `name` | `String` | | |
+| `outputScale` | `Number` | `1` | |
 | `overlayBackgroundColor` | `String` | `'rgba(0,0,0,0.5)'` | |
 | `overlayBorderColor` | `String` | `'#fff'` | |
 | `overlayBorderWidth` | `String` | `'4px'` | |

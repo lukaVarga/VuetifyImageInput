@@ -62,11 +62,12 @@ export default function(h) {
 						[h(
 							'div',
 							{
+								class: 'v-image-input__overlay',
 								style: {
 									boxShadow: `0 0 4000px 4000px ${this.overlayBackgroundColor}`,
 									maxHeight: '100%',
 									maxWidth: '100%',
-									outline: `${this.overlayBorderWidth} solid ${this.overlayBorderColor}`,
+									border: `${this.overlayBorderWidth} solid ${this.overlayBorderColor}`,
 									pointerEvents: 'none',
 								},
 							},

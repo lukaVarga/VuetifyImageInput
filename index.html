@@ -72,6 +72,17 @@
 					></v-text-field>
 				</div>
 				<div class="pa-2">
+					<v-text-field
+							v-model="outputScale"
+							:max="10"
+							:min="1"
+							box
+							hide-details
+							label="output scale"
+							type="number"
+					></v-text-field>
+				</div>
+				<div class="pa-2">
 					<v-radio-group
 						v-model="imageMinScaling"
 						class="ma-0 pa-0"
@@ -168,6 +179,7 @@
 						:image-height="Number(imageHeight)"
 						:image-min-scaling="imageMinScaling"
 						:image-width="Number(imageWidth)"
+						:output-scale="outputScale"
 						:readonly="readonly"
 					></v-image-input>
 				</v-container>

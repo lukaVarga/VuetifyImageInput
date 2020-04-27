@@ -14,6 +14,7 @@
 				imageHeight: VuetifyImageInput.props.imageHeight.default,
 				imageMinScaling: VuetifyImageInput.props.imageMinScaling.default,
 				imageWidth: VuetifyImageInput.props.imageWidth.default,
+				outputScale: VuetifyImageInput.props.outputScale.default,
 				readonly: VuetifyImageInput.props.readonly.default,
 				value: null,
 			};

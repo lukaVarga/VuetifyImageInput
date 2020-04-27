@@ -34,6 +34,7 @@ import successIconStyle from './successIconStyle';
 import uploadIcon from './uploadIcon';
 import uploadIconStyle from './uploadIconStyle';
 import value from './value';
+import outputScale from './outputScale';
 
 export default {
 	clearable,
@@ -72,6 +73,7 @@ export default {
 	uploadIcon,
 	uploadIconStyle,
 	value,
+	outputScale,
 
 	backgroundColor: {},
 	maxScaling: {},
